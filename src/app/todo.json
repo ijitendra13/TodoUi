@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Buy groceries",
+    "isCompleted": false
+  },
+  {
+    "id": 2,
+    "title": "Finish Angular project",
+    "isCompleted": true
+  },
+  {
+    "id": 3,
+    "title": "Call the plumber",
+    "isCompleted": false
+  },
+  {
+    "id": 4,
+    "title": "Read a book",
+    "isCompleted": true
+  }
+]

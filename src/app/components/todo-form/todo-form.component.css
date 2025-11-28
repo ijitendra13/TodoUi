@@ -1,0 +1,41 @@
+/* Whole page gradient background */
+body {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  min-height: 100vh;
+  padding-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Cards with semi-transparent background */
+.task-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+}
+
+/* Add Task button gradient */
+.add-btn {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  border: none;
+}
+
+/* Toggle button gradient */
+.toggle-btn {
+  background: linear-gradient(90deg, #28a745 0%, #85e085 100%);
+  border: none;
+}
+
+/* Delete button gradient */
+.delete-btn {
+  background: linear-gradient(90deg, #ff4d4d 0%, #ff9999 100%);
+  border: none;
+}
+
+/* Task row hover effect */
+.task-row {
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.task-row:hover {
+  background-color: #e3f2fd; /* Light blue hover */
+}

@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+/* Whole page soft gradient background */
+body {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee); /* soft white/gray gradient */
+  min-height: 100vh;
+  padding-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Semi-transparent cards */
+.card {
+  background: rgba(255, 255, 255, 0.95); /* almost opaque white */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* subtle shadow */
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(90deg, #8ec5fc 0%, #e0c3fc 100%); /* soft purple/blue gradient */
+  border: none;
+  color: #fff;
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #a8e6cf 0%, #dcedc1 100%); /* soft green gradient */
+  border: none;
+  color: #333;
+}
+
+.btn-danger {
+  background: linear-gradient(90deg, #ffaaa5 0%, #ffd3b6 100%); /* soft red/pink gradient */
+  border: none;
+  color: #333;
+}
+
+/* Task row hover */
+.task-row {
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.task-row:hover {
+  background-color: #f0f8ff; /* very light blue hover */
+}
